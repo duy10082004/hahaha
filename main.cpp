@@ -6,7 +6,6 @@ int main () {
     //printResultCau1(m);
     //printResultCau2(m);
     //divisorOfelement(m);
-    maxOutPut(m);
 }
 
 

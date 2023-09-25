@@ -42,11 +42,8 @@ void printResultCau1(A1D m) {
 // cau 2
 int oppositeCompareCount (A1D m) {
     int count = 0;
-    //dem coi 2 phan tu doi xung nhau co bang nhau ko
     int i = 0;
-    // phan tu dau cua mang
     int j = m.arrNum - 1;
-    // phan tu cuoi cua mang
     if (m.arrNum == 1){
         throw "error";
     }
@@ -54,11 +51,9 @@ int oppositeCompareCount (A1D m) {
         while (i < m.arrNum/2){
             if (m.arr[i] == m.arr[j]){
                 count ++;
-                //so sanh 2 phan tu doi xung nhau neu bang nhau thi tang count len 1 don vi
             }
             i++;
             j--;
-            // lay 2 phan tu doi xung tiep theo
         }
     }
     return count;
@@ -81,15 +76,3 @@ void divisorOfelement (A1D m) {
     }
 }
 
-// cau 4
-
-void maxOutPut (A1D m) {
-    int check = a[]
-    for (int i = 2; i < m.arrNum; i++){
-        if (m.arr[i-1] > m.arr[i-2]){
-            if (m.arr[i-1] > m.arr[i]){
-                cout << m.arr[i-1] << endl;
-            }
-        }
-    }
-}
